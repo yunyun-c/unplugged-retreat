@@ -166,7 +166,7 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
      margin: 0;
-      }
+    }
 
    .header-divider {
      color: #202322;
@@ -235,6 +235,8 @@ textarea {
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
+     background: url('img/image.jpg') center no-repeat #333;
+     background-size: cover;
    }
 
    .hero-area h1 {
@@ -371,7 +373,7 @@ textarea {
     margin-bottom: 40px;
     line-height: 1;
   }
-  
+
   .faq-content {
     margin-bottom: 50px;
   }
