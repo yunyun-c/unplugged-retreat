@@ -25,7 +25,9 @@
   <!-- Add your site or application content here -->
   <header>
     <div class="content-wrapper">
-    <a href="../index.html"><img src="../img/unpluggedlogo.png" alt="unplugged logo"></a>
+      <figure>  
+        <a href="../index.html"><img src="../img/unpluggedlogo.png" alt="unplugged logo"></a>
+      </figure>
     <div class="header-divider"></div>
         <nav>
             <ul>
@@ -85,46 +87,51 @@
 </main>
 
 <footer>
-    <div class="content-wrapper">
-        <div class="footer-content">
-            <div class="contact">
-              <h4>Contact</h4>
-                <address>
-                  555-555-5555
-                  <br>
-                  hello@unplugged.com
-                </address>
-            </div>
-            <div class="social">
-              <h3>Social</h3>
-                <div class="scoial-icons">
-                  <p>
-                    <a href=""><i class="fab fa-facebook"></i></a>
-                    <a href=""><i class="fab fa-twitter"></i></a>
-                    <a href=""><i class="fab fa-instagram"></i></a>
-                </p>
-        <p><a href="https://www.facebook.com/yoursite" target="_blank"></a></p>
-
-                </div>
-            </div>
+  <div class="content-wrapper">
+    <div class="footer-content">
+      <address class="contact">
+        <h3>Contact</h3>
+        <p>
+          555-555-5555 <br>
+          hello@unplugged.com</p>
+      </address>
+      <div class="social">
+        <h3>Social</h3>
+        <div class="social-icons">
+          <p>
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+          </p>
+          <p>
+            <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          </p>
+          <p>
+            <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          </p>
         </div>
+      </div>
     </div>
+  </div>
 
-    <div class="copyright">
-      <p>Copyright 2018 | Unplugged</p>
-    </div>
+  <div class="copyright">
+    <p>Copyright 2019 | Unplugged</p>
+  </div>
 </footer>
 
-  <script src="../js/vendor/modernizr-3.11.2.min.js"></script>
-  <script src="../js/plugins.js"></script>
-  <script src="../js/main.js"></script>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+
+
+<script src="../js/vendor/modernizr-3.8.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
